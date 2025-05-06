@@ -10,7 +10,9 @@ This repository contains all resources for our project on citation link predicti
 The repo is structured as:
 
 - `Data` contains the data, including ...
-- `Model` contains models, including ...
-- `Other` contains ...
+- `Models` contains trained model checkpoints.
+- `Models/tmp_BoW_dp.pt` contains a model trained using Bag-of-Words (BoW) node features and Dot Product decoder.
+- `Models/tmp_SciBERT_mlp.pt` contains a model trained using SciBERT-based node embeddings and MLP decoder.
+- `Other` contains some figure results used in the paper.
 - `Paper` contains the PDF of the paper.
 - `Scripts` contains the Python scripts used to preprocess data, train models, and evaluate link prediction performance.
