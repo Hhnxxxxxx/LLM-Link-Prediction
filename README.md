@@ -19,3 +19,5 @@ The repo is structured as:
 - `Other` contains some figure results used in the paper.
 - `Paper` contains the PDF of the paper.
 - `Scripts` contains the Python scripts used to preprocess data, train models, and evaluate link prediction performance.
+
+This project was developed in collaboration with [@yiyi-tang](https://github.com/yiyi-tang) and [@zhoulikefish](https://github.com/zhoulikefish).
